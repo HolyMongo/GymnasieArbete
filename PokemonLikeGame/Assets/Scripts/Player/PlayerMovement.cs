@@ -6,9 +6,17 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] float speed;
     [SerializeField] Rigidbody2D rb;
+    [SerializeField] PlayerData pD;
     Vector2 moveDir;
+    Transform transfo;
 
-    // Update is called once per frame
+
+    private void Start()
+    {
+        transfo = GetComponent<Transform>();
+        transfo.position = new Vector2(pD.XPos, pD.YPos);
+    }
+
     void FixedUpdate()
     {
         float moveX = Input.GetAxisRaw("Horizontal");

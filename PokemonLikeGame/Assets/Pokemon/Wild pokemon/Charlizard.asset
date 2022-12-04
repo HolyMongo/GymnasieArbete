@@ -12,13 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f803105667be7e44af3fb69a2d4ca73, type: 3}
   m_Name: Charlizard
   m_EditorClassIdentifier: 
-  charname: Charlizard
+  Pokemonname: Charlizard
   lvl: 36
   maxHp: 78
   attack: 84
-  spAttack: 109
   defence: 78
-  spDefence: 85
   sprite: {fileID: 21300000, guid: 4ef8bcd32c8b2ec4a85e27ae6fd24f7d, type: 3}
-  type1: 3
-  type2: 10

@@ -12,13 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f803105667be7e44af3fb69a2d4ca73, type: 3}
   m_Name: Charman
   m_EditorClassIdentifier: 
-  charname: Charman
+  Pokemonname: Charsalamander
   lvl: 5
   maxHp: 39
   attack: 52
-  spAttack: 60
   defence: 43
-  spDefence: 50
   sprite: {fileID: 21300000, guid: 043cfe7688663aa40ae3b754de6a3fce, type: 3}
-  type1: 3
-  type2: 0

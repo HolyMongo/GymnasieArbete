@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0f803105667be7e44af3fb69a2d4ca73, type: 3}
-  m_Name: Wartortleturtle
+  m_Name: PlayerPokemon
   m_EditorClassIdentifier: 
-  Pokemonname: Wartruffle
-  lvl: 0
-  maxHp: 59
-  attack: 63
-  defence: 80
-  sprite: {fileID: 21300000, guid: e353d9630803b114f9b2f8c936836bda, type: 3}
+  Pokemonname: Preset
+  lvl: 100
+  maxHp: 999
+  attack: 3
+  defence: 1000
+  sprite: {fileID: 21300000, guid: 0edaf96519bd1774f89557d01ff1647a, type: 3}
