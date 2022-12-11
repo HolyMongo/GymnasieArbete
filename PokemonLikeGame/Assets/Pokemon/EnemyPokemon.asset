@@ -10,16 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0f803105667be7e44af3fb69a2d4ca73, type: 3}
-  m_Name: Wartortleturtle
+  m_Name: EnemyPokemon
   m_EditorClassIdentifier: 
-  Pokemonname: Wartruffle
-  lvl: 16
-  maxHp: 59
-  currentHp: 59
-  attack: 63
-  defence: 80
-  sprite: {fileID: 21300000, guid: e353d9630803b114f9b2f8c936836bda, type: 3}
-  Attack1: 1
-  Attack2: 7
-  Attack3: 2
-  Attack4: 0
+  Pokemonname: 
+  lvl: 0
+  maxHp: 0
+  currentHp: 0
+  attack: 0
+  defence: 0
+  sprite: {fileID: 0}

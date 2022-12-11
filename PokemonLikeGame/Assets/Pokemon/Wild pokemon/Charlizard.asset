@@ -15,6 +15,11 @@ MonoBehaviour:
   Pokemonname: Charlizard
   lvl: 36
   maxHp: 78
+  currentHp: 78
   attack: 84
   defence: 78
   sprite: {fileID: 21300000, guid: 4ef8bcd32c8b2ec4a85e27ae6fd24f7d, type: 3}
+  Attack1: 1
+  Attack2: 6
+  Attack3: 2
+  Attack4: 5

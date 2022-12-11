@@ -17,14 +17,14 @@ public class ChangeVariable : MonoBehaviour
 
     public void CVB()
     {
-        pokemonSO.ChangeInformation("bulba", 49, 45, 49, 5, Bulb);
+        pokemonSO.ChangeInformation("bulba", 49, 45, 49, 5, Bulb, BasePokemon.Attacks.Scratch, BasePokemon.Attacks.Leafage, BasePokemon.Attacks.None, BasePokemon.Attacks.None);
     }
     public void CVC()
     {
-        pokemonSO.ChangeInformation("Charman", 52, 39, 43, 5, charm);
+        pokemonSO.ChangeInformation("Charman", 52, 39, 43, 5, charm, BasePokemon.Attacks.Scratch, BasePokemon.Attacks.Ember, BasePokemon.Attacks.None, BasePokemon.Attacks.None);
     }
     public void CVS()
     {
-        pokemonSO.ChangeInformation("Squirt", 48, 44, 56, 5, squirt);
+        pokemonSO.ChangeInformation("Squirt", 48, 44, 56, 5, squirt, BasePokemon.Attacks.Scratch, BasePokemon.Attacks.Scald, BasePokemon.Attacks.None, BasePokemon.Attacks.None);
     }
 }

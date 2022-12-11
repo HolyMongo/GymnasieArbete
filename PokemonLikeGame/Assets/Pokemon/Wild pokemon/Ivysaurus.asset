@@ -13,8 +13,13 @@ MonoBehaviour:
   m_Name: Ivysaurus
   m_EditorClassIdentifier: 
   Pokemonname: Ivysaurusus
-  lvl: 0
+  lvl: 16
   maxHp: 60
+  currentHp: 60
   attack: 62
   defence: 63
   sprite: {fileID: 21300000, guid: b8d926c9001aced4791b07c6e6f06b25, type: 3}
+  Attack1: 1
+  Attack2: 3
+  Attack3: 2
+  Attack4: 0

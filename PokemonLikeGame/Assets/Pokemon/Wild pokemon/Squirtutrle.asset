@@ -13,8 +13,13 @@ MonoBehaviour:
   m_Name: Squirtutrle
   m_EditorClassIdentifier: 
   Pokemonname: Squirturtle
-  lvl: 0
+  lvl: 5
   maxHp: 44
+  currentHp: 44
   attack: 48
   defence: 65
   sprite: {fileID: 21300000, guid: e353d9630803b114f9b2f8c936836bda, type: 3}
+  Attack1: 1
+  Attack2: 7
+  Attack3: 0
+  Attack4: 0

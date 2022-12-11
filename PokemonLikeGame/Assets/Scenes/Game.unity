@@ -333,6 +333,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pD: {fileID: 11400000, guid: 57bcb3bce89c18444b43d5a4d017e044, type: 2}
   transfo: {fileID: 950197613}
+  e1: {fileID: 11400000, guid: 904ef7d9f288c0f47a69cccc8bd31806, type: 2}
+  e2: {fileID: 11400000, guid: 56b71b8af1406e4489c5e9555748bfe6, type: 2}
+  e3: {fileID: 11400000, guid: c873bc291a6da154dbef91fc903f16bd, type: 2}
+  e4: {fileID: 11400000, guid: 17727d4d43c88de4483ce3d7e674850c, type: 2}
+  e5: {fileID: 11400000, guid: 11da510b902909e4a9097b3ba39114a1, type: 2}
+  e6: {fileID: 11400000, guid: f90f3633b732f094297ceebdc60aec07, type: 2}
+  e7: {fileID: 11400000, guid: 54737fe430de17d439c4578ddc195957, type: 2}
+  e8: {fileID: 11400000, guid: 9cb98f6a1f5a76e42a6cd52ea986e6f0, type: 2}
+  e9: {fileID: 11400000, guid: f17a4a160033efc4a8a50ae4bb2d3ce9, type: 2}
+  eP: {fileID: 11400000, guid: 3861a962338fefc4fb0f21973881bacd, type: 2}
 --- !u!1 &950197608
 GameObject:
   m_ObjectHideFlags: 0

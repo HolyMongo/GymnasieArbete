@@ -17,7 +17,7 @@ public class GetPokemonStats : MonoBehaviour
     {
         pName.text = pp.Name;
         pLvl.text = "Lvl: " + pp.Lvl;
-        pHp.text = "Hp: " + pp.MaxHp + "/" + pp.MaxHp;
+        pHp.text = "Hp: " + pp.CurrentHp + "/" + pp.MaxHp;
         pImage.sprite = pp.Sprite;
     }
 

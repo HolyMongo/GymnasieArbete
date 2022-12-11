@@ -15,6 +15,11 @@ MonoBehaviour:
   Pokemonname: Charmelon
   lvl: 16
   maxHp: 58
+  currentHp: 58
   attack: 64
   defence: 58
   sprite: {fileID: 21300000, guid: 58442d604b70356498920f98eba18a1e, type: 3}
+  Attack1: 1
+  Attack2: 6
+  Attack3: 2
+  Attack4: 0
