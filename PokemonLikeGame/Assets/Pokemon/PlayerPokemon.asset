@@ -15,6 +15,11 @@ MonoBehaviour:
   Pokemonname: Preset
   lvl: 100
   maxHp: 999
+  currentHp: 999
   attack: 3
   defence: 1000
   sprite: {fileID: 21300000, guid: 0edaf96519bd1774f89557d01ff1647a, type: 3}
+  Attack1: 1
+  Attack2: 4
+  Attack3: 5
+  Attack4: 8

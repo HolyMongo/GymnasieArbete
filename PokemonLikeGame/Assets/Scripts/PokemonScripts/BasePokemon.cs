@@ -121,11 +121,12 @@ public class BasePokemon : ScriptableObject
         Scald,
         Surf
     }
-    public void ChangeInformation(string name_, int attack_, int health_, int defence_, int lvl_, Sprite sprite_, Attacks A1_, Attacks A2_, Attacks A3_, Attacks A4_)
+    public void ChangeInformation(string name_, int attack_, int health_, int currentHp_, int defence_, int lvl_, Sprite sprite_, Attacks A1_, Attacks A2_, Attacks A3_, Attacks A4_)
     {
         Pokemonname = name_;
         attack = attack_;
         maxHp = health_;
+        currentHp = currentHp_;
         defence = defence_;
         lvl = lvl_;
         sprite = sprite_;
