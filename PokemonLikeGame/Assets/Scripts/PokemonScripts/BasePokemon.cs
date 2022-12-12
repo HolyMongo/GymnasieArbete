@@ -136,8 +136,11 @@ public class BasePokemon : ScriptableObject
         Attack4 = A4_;
     }
 
-    public void GetHit(int attckerAttack_)
+    public void GetHit(int attckerAttack_, int defenderDefence_)
     {
-        currentHp -= attckerAttack_;
+        Debug.Log(attckerAttack_);
+        Debug.Log(defenderDefence_);
+        Debug.Log(Mathf.FloorToInt(attckerAttack_ / defenderDefence_));
+        currentHp -= Mathf.FloorToInt(attckerAttack_/defenderDefence_);
     }
 }

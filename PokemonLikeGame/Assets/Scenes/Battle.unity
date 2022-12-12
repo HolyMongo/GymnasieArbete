@@ -1571,6 +1571,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1228928663}
   - component: {fileID: 1228928666}
+  - component: {fileID: 1228928667}
   - component: {fileID: 1228928665}
   - component: {fileID: 1228928664}
   m_Layer: 5
@@ -1644,7 +1645,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1228928665}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1228928667}
+        m_TargetAssemblyTypeName: Attack, Assembly-CSharp
+        m_MethodName: AttackOrTakeDamage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1228928665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1683,6 +1696,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1228928662}
   m_CullTransparentMesh: 1
+--- !u!114 &1228928667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228928662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddbd3f0f672184c4cbf5e2ad307c2a3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pp: {fileID: 11400000, guid: 4dffbdd19b14ad94d8201c05b0861b01, type: 2}
+  ep: {fileID: 11400000, guid: 3861a962338fefc4fb0f21973881bacd, type: 2}
+  echp: {fileID: 575890962}
+  pchp: {fileID: 1454491155}
 --- !u!1 &1257059662
 GameObject:
   m_ObjectHideFlags: 0
@@ -1975,6 +2004,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1379863180}
   - component: {fileID: 1379863183}
+  - component: {fileID: 1379863184}
   - component: {fileID: 1379863182}
   - component: {fileID: 1379863181}
   m_Layer: 5
@@ -2048,7 +2078,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1379863182}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1379863184}
+        m_TargetAssemblyTypeName: Attack, Assembly-CSharp
+        m_MethodName: AttackOrTakeDamage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1379863182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2087,6 +2129,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1379863179}
   m_CullTransparentMesh: 1
+--- !u!114 &1379863184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379863179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddbd3f0f672184c4cbf5e2ad307c2a3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pp: {fileID: 11400000, guid: 4dffbdd19b14ad94d8201c05b0861b01, type: 2}
+  ep: {fileID: 11400000, guid: 3861a962338fefc4fb0f21973881bacd, type: 2}
+  echp: {fileID: 575890962}
+  pchp: {fileID: 1454491155}
 --- !u!1 &1414294205
 GameObject:
   m_ObjectHideFlags: 0
@@ -2637,6 +2695,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1626664405}
   - component: {fileID: 1626664408}
+  - component: {fileID: 1626664409}
   - component: {fileID: 1626664407}
   - component: {fileID: 1626664406}
   m_Layer: 5
@@ -2710,7 +2769,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1626664407}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1626664409}
+        m_TargetAssemblyTypeName: Attack, Assembly-CSharp
+        m_MethodName: AttackOrTakeDamage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1626664407
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2749,6 +2820,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1626664404}
   m_CullTransparentMesh: 1
+--- !u!114 &1626664409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1626664404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddbd3f0f672184c4cbf5e2ad307c2a3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pp: {fileID: 11400000, guid: 4dffbdd19b14ad94d8201c05b0861b01, type: 2}
+  ep: {fileID: 11400000, guid: 3861a962338fefc4fb0f21973881bacd, type: 2}
+  echp: {fileID: 575890962}
+  pchp: {fileID: 1454491155}
 --- !u!1 &1783782103
 GameObject:
   m_ObjectHideFlags: 0
@@ -2894,6 +2981,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1852794188}
   - component: {fileID: 1852794191}
+  - component: {fileID: 1852794192}
   - component: {fileID: 1852794190}
   - component: {fileID: 1852794189}
   m_Layer: 5
@@ -2967,7 +3055,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1852794190}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1852794192}
+        m_TargetAssemblyTypeName: Attack, Assembly-CSharp
+        m_MethodName: AttackOrTakeDamage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1852794190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3006,6 +3106,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1852794187}
   m_CullTransparentMesh: 1
+--- !u!114 &1852794192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852794187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddbd3f0f672184c4cbf5e2ad307c2a3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pp: {fileID: 11400000, guid: 4dffbdd19b14ad94d8201c05b0861b01, type: 2}
+  ep: {fileID: 11400000, guid: 3861a962338fefc4fb0f21973881bacd, type: 2}
+  echp: {fileID: 575890962}
+  pchp: {fileID: 1454491155}
 --- !u!1 &1968557772
 GameObject:
   m_ObjectHideFlags: 0
