@@ -143,4 +143,9 @@ public class BasePokemon : ScriptableObject
         Debug.Log(Mathf.FloorToInt(attckerAttack_ / defenderDefence_));
         currentHp -= Mathf.FloorToInt(attckerAttack_/defenderDefence_);
     }
+
+    public void changeCurrentHealth(int currentHP_)
+    {
+        currentHp = currentHP_;
+    }
 }
