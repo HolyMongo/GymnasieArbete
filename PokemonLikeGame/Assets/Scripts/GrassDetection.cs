@@ -24,6 +24,8 @@ public class GrassDetection : MonoBehaviour
     [SerializeField] GameObject mainCam;
     [SerializeField] GameObject battleCam;
     [SerializeField] GameObject playerCharacter;
+    [SerializeField] GetPokemonStats gps;
+    [SerializeField] GetPokemonStats egps;
 
     private void Start()
     {
@@ -113,6 +115,8 @@ public class GrassDetection : MonoBehaviour
                         mainCam.SetActive(false);
                         battleCam.SetActive(true);
                         playerCharacter.SetActive(false);
+                        gps.UpdateStats();
+                        egps.UpdateStats();
                         Debug.Log("Wild pokemon encounter");
                     } 
                 }

@@ -32,5 +32,24 @@ public class GetPokemonStats : MonoBehaviour
             pImage.sprite = pp.Sprite;
         }
     }
+    public void UpdateStats()
+    {
+        if (pName != null)
+        {
+            pName.text = pp.Name;
+        }
+        if (pLvl != null)
+        {
+            pLvl.text = "Lvl: " + pp.Lvl;
+        }
+        if (pHp != null)
+        {
+            pHp.text = "Hp: " + pp.CurrentHp + "/" + pp.MaxHp;
+        }
+        if (pImage != null)
+        {
+            pImage.sprite = pp.Sprite;
+        }
+    }
 
 }

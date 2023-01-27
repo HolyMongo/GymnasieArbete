@@ -10,6 +10,7 @@ public class Attack : MonoBehaviour
     [SerializeField] BasePokemon ep;
     [SerializeField] TextMeshProUGUI echp;
     [SerializeField] TextMeshProUGUI pchp;
+    [SerializeField] StartGame sG;
 
     public void AttackOrTakeDamage()
     {
@@ -19,6 +20,11 @@ public class Attack : MonoBehaviour
         {
             pp.GetHit(Mathf.FloorToInt((pp.Attack * pp.Lvl) / 100f) + 5, Mathf.FloorToInt((pp.Defence * pp.Lvl) / 100f));
             pchp.text = "Hp: " + pp.CurrentHp + "/" + pp.MaxHp;
+        }
+
+        if (ep.CurrentHp <= 0 || pp.CurrentHp <= 0)
+        {
+            sG.Startgame();
         }
     }
 }
