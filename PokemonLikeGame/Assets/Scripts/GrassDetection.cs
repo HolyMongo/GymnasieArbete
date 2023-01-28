@@ -59,7 +59,7 @@ public class GrassDetection : MonoBehaviour
 
                
                     randomnumber = Random.Range(1, 500);
-                    if (randomnumber < 5)
+                    if (randomnumber < 25)
                     {
                         randomnumber = Random.Range(1, 13);
                         if (randomnumber <= 7)

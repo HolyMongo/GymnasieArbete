@@ -18,7 +18,7 @@ MonoBehaviour:
   currentHp: 79
   attack: 83
   defence: 100
-  sprite: {fileID: 21300000, guid: e353d9630803b114f9b2f8c936836bda, type: 3}
+  sprite: {fileID: 21300000, guid: bd0205ce50a64334ca03efc7348b0b63, type: 3}
   Attack1: 1
   Attack2: 7
   Attack3: 2
