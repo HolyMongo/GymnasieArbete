@@ -23,6 +23,9 @@ public class BasePokemon : ScriptableObject
     //[SerializeField] PokemonTypes type1;
     //[SerializeField] PokemonTypes type2;
 
+    int exp;
+    int expToLvlUp;
+
     public string Name{
         get { return Pokemonname; }
     }
@@ -138,14 +141,43 @@ public class BasePokemon : ScriptableObject
 
     public void GetHit(int attckerAttack_, int defenderDefence_)
     {
-        Debug.Log(attckerAttack_);
-        Debug.Log(defenderDefence_);
-        Debug.Log(Mathf.FloorToInt(attckerAttack_ / defenderDefence_));
-        currentHp -= Mathf.FloorToInt(attckerAttack_/defenderDefence_);
+        int attackdamage;
+        //Debug.Log(attckerAttack_);
+        //Debug.Log(defenderDefence_);
+        //Debug.Log(Mathf.FloorToInt(attckerAttack_ / defenderDefence_));
+        //currentHp -= Mathf.FloorToInt(attckerAttack_/defenderDefence_);
+
+        currentHp -= Mathf.FloorToInt((((((attckerAttack_ * lvl) / 5) + 2) * (attckerAttack_ / defenderDefence_)) / 5) + 2);
+        attackdamage = Mathf.FloorToInt(attckerAttack_ * lvl);
+        Debug.Log(attackdamage);
+        attackdamage = Mathf.FloorToInt(attackdamage/5);
+        Debug.Log(attackdamage);
+        attackdamage = Mathf.FloorToInt(attackdamage + 2);
+        Debug.Log(attackdamage);
+        attackdamage = Mathf.FloorToInt(attackdamage * (attckerAttack_ / defenderDefence_));
+        Debug.Log(attackdamage);
+        attackdamage = Mathf.FloorToInt(attackdamage / 5);
+        Debug.Log(attackdamage);
+        attackdamage = Mathf.FloorToInt(attackdamage + 2);
+        Debug.Log("Final damage should be: " + attackdamage);
+
+
+        Debug.Log("attack: " + attckerAttack_);
+        Debug.Log("Defence: " + defenderDefence_);
+        Debug.Log("Damage: " + Mathf.FloorToInt((((((attckerAttack_ * lvl) / 5) + 2) * (attckerAttack_ / defenderDefence_)) / 5) + 2));
     }
 
     public void changeCurrentHealth(int currentHP_)
     {
         currentHp = currentHP_;
+    }
+
+
+    public void AddExp(int A, int B, int C)
+    {
+        float ExpGainAmout = Mathf.Floor(Mathf.Floor(Mathf.Sqrt(A) * (A * A)) * B / Mathf.Floor(Mathf.Sqrt(C) * (C * C))) + 1;
+
+        Debug.Log(ExpGainAmout);
+
     }
 }
